@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button,Form, FormLabel } from 'react-bootstrap';
+import { Button,Form } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import {Nav, FormControl, } from 'react-bootstrap';
 
@@ -55,19 +55,15 @@ function App() {
         <p>Or Sign Up With</p>
         <ul>
           <li>
-            <a href="#">
-              <i class="fab fa-facebook-f"></i>
-            </a>
+		  <a href="#" class="fa fa-facebook"></a>
+
           </li>
           <li>
-            <a href="#">
-              <i class="fab fa-instagram"></i>
-            </a>
+		  <a href="#" class="fa fa-instagram"></a>
           </li>
           <li>
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
+		  
+             <a href="#" class="fa fa-twitter"></a>
           </li>
         </ul>
 		</div>
